@@ -7,5 +7,15 @@ class std:
         print("Name:",self.name)
         print("Age:",self.age)
 
+    def course(self,course):
+        self.course = course
+        print("Course:",self.course)
+
+    def branch(self,branch):
+        self.branch = branch
+        print("Branch:",self.branch)    
+
 obj = std("Harry",20)
 obj.display()   
+obj.course("Python")    
+obj.branch("CSE")
